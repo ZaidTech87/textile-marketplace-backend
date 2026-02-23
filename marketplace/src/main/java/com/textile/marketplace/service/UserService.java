@@ -17,4 +17,17 @@ public interface UserService {
 
     List<UserResponse> getLocalSellers(String city, String area);
 
-    List<UserResponse> getTopRatedS
+    List<UserResponse> getTopRatedSellers();
+
+    UserResponse updateRating(Long id, Double newRating);
+
+    Long getTotalSellersCount();
+
+    List<UserResponse> searchSellers(String keyword);
+
+    UserResponse verifySeller(Long id);
+
+    UserResponse deactivateUser(Long id);
+
+    boolean isMobileRegistered(String mobile);
+}
