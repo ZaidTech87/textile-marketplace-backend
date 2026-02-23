@@ -1,4 +1,4 @@
-\package com.textile.marketplace.service;
+package com.textile.marketplace.service;
 
 import com.textile.marketplace.dto.response.ChatMessageResponse;
 import com.textile.marketplace.dto.response.ChatRoomResponse;
